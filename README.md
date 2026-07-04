@@ -32,6 +32,7 @@ The multi-agent workflow utilizes exactly **three specialized agents** acting as
 Etsy-AI-Listing-Automation-Bot/
 │
 ├── main.py                 # Core application: Telegram bot handlers & CrewAI setup
+├── schemas.py              # Pydantic classes for data validation and structured AI outputs
 ├── etsy_api.py             # Custom Etsy API V3 client wrapper with token auto-refresh
 ├── requirements.txt        # Production dependencies
 ├── tokens.json             # App-generated OAuth sessions (DO NOT COMMIT)
